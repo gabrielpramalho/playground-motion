@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { NavLink } from './nav-link'
 
 export function Aside() {
   return (
@@ -9,7 +9,8 @@ export function Aside() {
             <span className='text-lg'>Components</span>
           </div>
           <ul className="flex flex-col gap-4">
-            <Link href="/ui/button" className='hover:bg-neutral-900 px-4 py-2 rounded-lg'>Button</Link>
+            <NavLink href="/ui/animate-on-show">Animation</NavLink>
+            <NavLink href="/ui/button">Button</NavLink>
           </ul>
         </nav>
       </aside>
