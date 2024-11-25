@@ -11,6 +11,7 @@ export function Aside() {
           <ul className="flex flex-col gap-4">
             <NavLink href="/ui/animate-on-show">Animation</NavLink>
             <NavLink href="/ui/button">Button</NavLink>
+            <NavLink href="/ui/magnetic-hover">Magnetic Hover</NavLink>
           </ul>
         </nav>
       </aside>
