@@ -14,6 +14,10 @@ export function Aside() {
       title: 'Magnetic Hover',
       href: '/ui/magnetic-hover',
     },
+    {
+      title: 'Icons',
+      href: '/ui/icons',
+    },
   ]
 
   const asideItemsSorted = items.sort((a, b) => a.title.localeCompare(b.title))
