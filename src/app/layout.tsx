@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.className} antialiased dark`}>
         <Header />
         <div className="mx-auto flex w-full max-w-[1400px] border border-t-0 max-lg:mb-14 max-lg:flex-col max-lg:gap-12 xl:border-x xl:border-neutral-800/60">
           <Aside />
