@@ -18,6 +18,10 @@ export function Aside() {
       title: 'Icons',
       href: '/ui/icons',
     },
+    {
+      title: 'Expandable Card',
+      href: '/ui/expandable-card',
+    },
   ]
 
   const asideItemsSorted = items.sort((a, b) => a.title.localeCompare(b.title))
