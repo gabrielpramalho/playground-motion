@@ -26,6 +26,10 @@ export function Aside() {
       title: 'Expandable Menu',
       href: '/ui/expandable-menu',
     },
+    {
+      title: 'Sticky Scroll',
+      href: '/ui/sticky-scroll',
+    },
   ]
 
   const asideItemsSorted = items.sort((a, b) => a.title.localeCompare(b.title))
