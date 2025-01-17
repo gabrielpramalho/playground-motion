@@ -30,6 +30,10 @@ export function Aside() {
       title: 'Sticky Scroll',
       href: '/ui/sticky-scroll',
     },
+    {
+      title: 'Smooth Scroll',
+      href: '/ui/smooth-scroll',
+    },
   ]
 
   const asideItemsSorted = items.sort((a, b) => a.title.localeCompare(b.title))
