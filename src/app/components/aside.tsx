@@ -35,8 +35,8 @@ export function Aside() {
       href: '/ui/smooth-scroll',
     },
     {
-      title: 'Slider',
-      href: '/ui/slider',
+      title: 'Number Flow',
+      href: '/ui/number-flow',
     },
     {
       title: 'Scroll Snap',
