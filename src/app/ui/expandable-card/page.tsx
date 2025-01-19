@@ -1,4 +1,10 @@
+import type { Metadata } from 'next'
 import { ProjectStatusCard } from './_components/expandable-card'
+
+export const metadata: Metadata = {
+  title: 'Expandable Card',
+  description: 'Playground motion dev',
+}
 
 export default function ExpandableCardPage() {
   return (
