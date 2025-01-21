@@ -42,6 +42,10 @@ export function Aside() {
       title: 'Scroll Snap',
       href: '/ui/scroll-snap',
     },
+    {
+      title: 'Card Profile',
+      href: '/ui/card-profile'
+    }
   ]
 
   const asideItemsSorted = items.sort((a, b) => a.title.localeCompare(b.title))
