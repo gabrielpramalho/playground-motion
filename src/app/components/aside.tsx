@@ -45,6 +45,10 @@ export function Aside() {
     {
       title: 'Card Profile',
       href: '/ui/card-profile'
+    },
+    {
+      title: 'Input File',
+      href: '/ui/input-file'
     }
   ]
 

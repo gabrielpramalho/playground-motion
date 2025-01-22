@@ -39,7 +39,7 @@ export function CardProfile() {
             <AvatarImage src="https://github.com/gabrielpramalho.png" />
             <AvatarFallback>GR</AvatarFallback>
           </Avatar>
-        </div>
+        </div> 
         <div className="flex justify-between">
           <div className="flex flex-col">
             <strong className="text-lg font-semibold tracking-tight">
