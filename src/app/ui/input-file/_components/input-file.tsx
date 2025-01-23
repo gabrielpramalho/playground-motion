@@ -30,6 +30,12 @@ export function InputFile(props: InputFileProps) {
     }
   }
 
+  // TODO: Create Image Preview
+  // TODO: Beauty components
+  // TODO: Add some interactions
+  // TODO: Add all states (progress, complete, error)
+  // TODO: Add drag and drop
+
   return (
     <FileInputContext.Provider value={{ id, files, onFileSelected }}>
       <div {...props} />

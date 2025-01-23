@@ -9,7 +9,7 @@ export function InputFileTrigger() {
   return (
     <label
       htmlFor={id}
-      className="flex items-center justify-center p-6 border rounded-lg cursor-pointer group"
+      className="flex items-center justify-center p-6 border border-neutral-800/60 rounded-lg cursor-pointer group"
     >
       <div className="p-8 space-y-4">
         <div className="flex justify-center gap-2">
