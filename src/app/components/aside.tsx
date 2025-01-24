@@ -49,6 +49,10 @@ export function Aside() {
     {
       title: 'Input File',
       href: '/ui/input-file'
+    },
+    {
+      title: 'Button Animated',
+      href: '/ui/button-animated'
     }
   ]
 
