@@ -13,6 +13,7 @@ export function InputFileList() {
           <InputFileItem name={file.name} size={file.size} key={file.name} />
         )
       })}
+      <InputFileItem name={'teste.png'} size={125} key={'teste.png'} />
     </div>
   )
 }

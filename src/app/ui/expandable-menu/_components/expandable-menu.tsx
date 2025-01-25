@@ -42,7 +42,7 @@ export function ExpandableMenu() {
       </button>
       <motion.div
         style={{ width: animateWidth }}
-        transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+        transition={{ duration: .2, bounce: 0 }}
         className="overflow-hidden"
       >
         <div ref={contentRef}>
